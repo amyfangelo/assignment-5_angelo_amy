@@ -58,10 +58,10 @@ input[type=submit]:hover {
 
 .information {
   text-align: center;
-  color: #f3f6f3;
-  background-color: #540F24;
+  background-color: #eee8f3;
+  color: #262626;
   width:100%;
-  max-width: 600px;
+  max-width: 500px;
   margin: auto;
   padding: 2rem;
   border-radius: 1%;
@@ -80,4 +80,5 @@ li {
   border-radius: 10px;
   padding: 12px 40px;
   background-color: #DBB1B5;
+  margin-top: 1.5rem;
 }

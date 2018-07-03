@@ -11,21 +11,20 @@
 <body>
   <div class=information>
     <h1>Yoga Retreat 2018!</h1>
+      <button id="colorchange">Suprise!</button>
     <h2>to Honolulu, Hawaii</h2>
     <p>We look forward to embarking on a journey to Hawaii for this year's yoga retreat!</p>
-    <button id="colorchange">Suprise!</button>
     <p>activities include:</p>
     <ul>
       <li>morning meditation</li>
       <li>essential oil workshop</li>
       <li>Diamond Head hike</li>
       <li> & more! </li>
-    <h3>Click here for more information:</h3>
-      <button id="clicker">Learn more!</button>
-    <h3>Sign Up:</h3>
+    <h3>Sign up for more information!</h3>
       <form>
-       <input name="email" type="text" placeholder="email"/> 
-
+       <input name="email" type="text" placeholder="email" id="email" onblur="onBlur()"/>
+     </form>
+     <button id="clicker">Learn more!</button>
 </div>
 
   <script src="js/main.js"></script>

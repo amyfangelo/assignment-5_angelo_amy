@@ -45,3 +45,10 @@ clickerButton.addEventListener("click", buttonClick);
 
 //event listens for a click and then changes text on second button page
 //via https://www.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-events/p/adding-an-event-listener
+
+function onBlur() {
+  var x = document.getElementById("email");
+  x.value = x.value.toUpperCase();
+}
+//This event listens for you to enter your email into the form and then if a user leaves the form the content in the form
+//becomes all caps via: https://www.w3schools.com/js/tryit.asp?filename=tryjs_events_onblur
