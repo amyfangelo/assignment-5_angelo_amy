@@ -2,6 +2,7 @@ body {
   background-color: #f3f6f3;
   font-family: 'Lato', sans-serif;
   color: #3C4A3B;
+
 }
 
 .container {
@@ -51,4 +52,32 @@ input[type=submit]:hover {
 
 ::placeholder {
   color: #A59E9A;
+}
+
+/*custom styles*/
+
+.information {
+  text-align: center;
+  color: #f3f6f3;
+  background-color: #540F24;
+  width:100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 1%;
+  margin-top: 100px;
+}
+
+li {
+  list-style-type: none;
+}
+#colorchange {
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: #DBB1B5;
+}
+#clicker {
+  border-radius: 10px;
+  padding: 12px 40px;
+  background-color: #DBB1B5;
 }
